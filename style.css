@@ -1,0 +1,123 @@
+/* Beginning of Index */
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;}
+
+/* Five colors: Light Blue and Yellow, Medium/Dark Blue, Red, and White */
+
+/* End of Index */
+
+header {
+    margin: 0;
+    padding: 0.5%;
+    width: 99%;
+    background-color: royalblue;
+}
+
+body {
+    background-color:steelblue;
+    color:gold;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+
+
+
+/* Beginning of Links */
+
+a:link {
+    color:darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color:limegreen;
+}
+
+a:active {
+    color:darkgreen;
+}
+
+a:visited {
+    color:darkred;
+}
+
+a:visited:hover {
+    color:red;
+}
+
+a:visited:active {
+    color:darkred;
+}
+
+/* End of Links */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Beginning of Responsive Web Design */
+
+/* @media (max-width: 750px) {
+    body {
+        
+    }
+} */
+
+/* End of Responsive Web Design */

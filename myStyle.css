@@ -1,0 +1,144 @@
+a:link {
+    color:darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(27, 143, 46);
+    font-size: 110%;
+}
+
+a:active {
+    color:darkgreen;
+}
+
+a:visited {
+    color:darkred;
+}
+
+a:visited:hover {
+    color:red;
+}
+
+a:visited:active {
+    color:darkred;
+}
+
+body {
+    color:blue;
+    background-color:blanchedalmond;
+    font-family: san-serif, cursive;
+    font-size: 18px;
+    margin: 0;
+}
+
+main { 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    color:rgb(105, 42, 105);
+    padding: 0;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+h2, h3, h4, h5 {
+    color:rgb(105, 42, 105);
+}
+
+.centered {
+    padding: 0;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align:center;
+}
+
+p {
+    text-indent: 2em;
+} 
+
+ul li {
+    list-style-type: circle;
+    margin-bottom: 1.4em;
+}
+
+.intro {
+    font-style: italic;
+}
+
+img#salinger {
+    float: right;
+    margin: 2.5em;
+}
+
+.salingerparagraph {
+    margin-top: 5em;
+}
+
+sub {
+    text-indent: 2em;
+}
+
+.finallist {
+    margin-bottom: 2em;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.flexed1 {
+    margin-right: 2em;
+    width: calc(50% - 1em);
+}
+
+.flexed2 {
+    width: calc(50% - 1em);
+}
+
+.noindent {
+    text-indent: 0em;
+}
+
+header {
+    margin: 0;
+    padding: 0.5%;
+    width: 99%;
+    background-color: burlywood;
+}
+
+.nav:hover {
+    font-size: 100%;
+}
+
+footer {
+    margin: 0;
+    margin-top: 16em;
+    padding: 0.5%;
+    width: 99%;
+    background-color: burlywood;
+    position: sticky;
+    bottom: 0px;
+    
+}
+.footer {
+    text-align: center;
+    color:dimgrey;
+}
