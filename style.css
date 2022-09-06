@@ -170,17 +170,6 @@ div.nav:hover div.dropdownitem a{
     display: block;
 }
 
-div.nav div.dropdownitem:hover .furtherdropdown {
-    display: block;
-    /* float: right; */
-    color: black;
-    background-color: green;    
-    position: absolute;
-    left: 100px;
-    width: fit-content;
-
-}
-
 
 
 /* Beginning of Responsive Web Design */
