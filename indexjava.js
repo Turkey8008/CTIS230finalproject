@@ -1,4 +1,4 @@
-myitem = document.getElementById("clickable");
+myitem = document.getElementById("clickintro");
 
 myitem.addEventListener("click", onClick);
 
@@ -8,10 +8,11 @@ function onClick() {
 
     myitem.style.fontFamily = "Courier", "Times", "Times New Roman";  
 }
+
 myitem.addEventListener("mouseout", onMouseOut);
 
 function onMouseOut() { 
 
-    myitem.style.color = "blue";
+    myitem.style.color = "gold";
     myitem.style.fontFamily = "";
 }

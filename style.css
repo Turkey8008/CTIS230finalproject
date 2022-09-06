@@ -3,11 +3,7 @@
     margin-left: 10%;
     margin-right: 10%;
 }
-.flex1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;}
+
 
 /* Five colors: Light Blue and Yellow, Medium/Dark Blue, Red, and White */
 
@@ -33,7 +29,6 @@
 
 header {
     margin: 0;
-    padding: 0.5%;
     width: 99%;
     background-color:midnightblue;
 }
@@ -53,7 +48,7 @@ h1 {
     margin: 0;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 1em;
+    margin-top: 2em;
     text-align: center;
     margin-bottom: 1em;
 }
@@ -81,7 +76,7 @@ ul li {
     margin-bottom: 1.4em;
 }
 
-.intro {
+#clickintro {
     font-style: italic;
 }
 
@@ -138,63 +133,107 @@ a:visited:active {
 
 
 
+/* Drop-Down */
+body {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    height: 100vh;
+}
 
+div#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: midnightblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0.5%;
+}
 
+div.nav {
+    width: 30%;
+    text-align: center;
+}
 
+div.nav div.dropdownitem a, .furtherdropdown {
+    display: none;
+    text-decoration: none;
+    color: green;
+    font-family: monospace;
+    border-width: 3px;
+    border-style: inset;
+    position: relative;
+}
 
+div.nav:hover div.dropdownitem a{
+    display: block;
+}
 
+div.nav div.dropdownitem:hover .furtherdropdown {
+    display: block;
+    /* float: right; */
+    color: black;
+    background-color: green;    
+    position: absolute;
+    left: 100px;
+    width: fit-content;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
 /* Beginning of Responsive Web Design */
 
-/* @media (max-width: 750px) {
-    body {
-        
-    }
-} */
 
+
+@media screen and (orientation: portrait) and (max-width: 980px) {
+
+    sub {
+        font-size: 0.75em;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    main {
+        font-size: 0.75em;
+        margin-left: 5%;
+        margin-right: 5%;
+        transition-property: all;
+        transition-duration: 0.5s;
+        }
+    h1 {
+        font-size: 1.5em;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    img {
+        width: 50vw;
+    }
+}
+
+@media screen and (orientation: landscape) {
+
+    sub {
+        font-size: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+
+    main {
+        font-size: "";
+        margin-left: "";
+        margin-right: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    h1 {
+        font-size: "";
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    img {
+        width: "";
+    }
+}
 /* End of Responsive Web Design */
