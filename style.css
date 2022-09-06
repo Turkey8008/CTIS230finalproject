@@ -198,6 +198,9 @@ div.nav:hover div.dropdownitem a{
     img {
         width: 50vw;
     }
+    .footer {
+        font-size: 0.85em;
+    }
 }
 
 @media screen and (orientation: landscape) {
@@ -222,6 +225,9 @@ div.nav:hover div.dropdownitem a{
     }
     img {
         width: "";
+    }
+    .footer {
+        font-size: "";
     }
 }
 /* End of Responsive Web Design */
