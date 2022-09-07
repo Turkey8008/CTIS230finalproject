@@ -1,32 +1,4 @@
-/* Beginning of Index */
-.indexmain { 
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-
-/* Five colors: Light Blue and Yellow, Medium/Dark Blue, Red, and White */
-
-/* End of Index */
-
-/* Beginning of Page 2 */
-
-.page2main { 
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-/* End of Page 2 */
-
-/* Beginning of Page 3 */
-
-.page3main { 
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-/* End of Page 3 */
-
+/* Main CSS */
 header {
     margin: 0;
     width: 99%;
@@ -88,7 +60,7 @@ footer {
     margin-top: 20em;
     padding: 0.5%;
     width: 99%;
-    background-color: darkred;
+    background-color: rgba(139, 0, 0, 0.75);
     position: sticky;
     bottom: 0px;
     opacity: 75%;   
@@ -98,6 +70,35 @@ footer {
     color:whitesmoke;
 }
 
+/* End of Main CSS */
+
+/* Beginning of Index */
+.indexmain { 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+/* End of Index */
+
+/* Beginning of Page 2 */
+
+.page2main { 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* End of Page 2 */
+
+/* Beginning of Page 3 */
+
+.page3main { 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* End of Page 3 */
 
 
 /* Drop-Down */
@@ -112,28 +113,22 @@ div#navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: midnightblue;
-    opacity: 75%;
+    background-color: rgba(25, 25, 112, 0.5);
     position: fixed;
     top: 0;
     width: 100%;
     padding: 0.5%;
 }
 
-div#navbar.nav {
-opacity: 100%;
-}
-
 div.nav {
     width: 30%;
     text-align: center;
-    opacity: 100%;
 }
 
 div.nav div.dropdownitem a, .furtherdropdown {
     display: none;
     text-decoration: none;
-    color: green;
+    color: goldenrod;
     font-family: monospace;
     border-width: 3px;
     border-style: inset;
@@ -149,48 +144,48 @@ div.nav:hover div.dropdownitem a{
 a:link {
     color: green;
     text-decoration: none;
-    opacity: 100%;
+    opacity: 1;
 }
 
 sub a:link {
     color:darkgreen;
     text-decoration: none;
-    opacity: 100%;
+    opacity: 1;
 }
 
 a:hover {
     color:limegreen;
-    opacity: 100%;
+    opacity: 1;
 }
 
 sub a:hover {
     color:limegreen;
-    opacity: 100%;
+    opacity: 1;
 }
 
 a:active {
     color:green;
-    opacity: 100%;
+    opacity: 1;
 }
 
 sub a:active {
     color:darkgreen;
-    opacity: 100%;
+    opacity: 1;
 }
 
 a:visited {
     color:firebrick;
-    opacity: 100%;
+    opacity: 1;
 }
 
 a:visited:hover {
     color:red;
-    opacity: 100%;
+    opacity: 1;
 }
 
 a:visited:active {
     color:firebrick;
-    opacity: 100%;
+    opacity: 1;
 }
 
 /* End of Links */
