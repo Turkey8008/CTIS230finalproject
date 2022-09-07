@@ -91,57 +91,12 @@ footer {
     background-color: darkred;
     position: sticky;
     bottom: 0px;
-    
+    opacity: 75%;   
 }
 .footer {
     text-align: center;
     color:whitesmoke;
 }
-
-
-
-/* Beginning of Links */
-
-a:link {
-    color: green;
-    text-decoration: none;
-}
-
-sub a:link {
-    color:darkgreen;
-    text-decoration: none;
-}
-
-a:hover {
-    color:limegreen;
-}
-
-sub a:hover {
-    color:limegreen;
-}
-
-a:active {
-    color:green;
-}
-
-sub a:active {
-    color:darkgreen;
-}
-
-a:visited {
-    color:darkred;
-}
-
-a:visited:hover {
-    color:red;
-}
-
-a:visited:active {
-    color:darkred;
-}
-
-/* End of Links */
-
 
 
 
@@ -158,15 +113,21 @@ div#navbar {
     flex-direction: row;
     justify-content: space-around;
     background-color: midnightblue;
+    opacity: 75%;
     position: fixed;
     top: 0;
     width: 100%;
     padding: 0.5%;
 }
 
+div#navbar.nav {
+opacity: 100%;
+}
+
 div.nav {
     width: 30%;
     text-align: center;
+    opacity: 100%;
 }
 
 div.nav div.dropdownitem a, .furtherdropdown {
@@ -182,6 +143,57 @@ div.nav div.dropdownitem a, .furtherdropdown {
 div.nav:hover div.dropdownitem a{
     display: block;
 }
+
+/* Beginning of Links */
+
+a:link {
+    color: green;
+    text-decoration: none;
+    opacity: 100%;
+}
+
+sub a:link {
+    color:darkgreen;
+    text-decoration: none;
+    opacity: 100%;
+}
+
+a:hover {
+    color:limegreen;
+    opacity: 100%;
+}
+
+sub a:hover {
+    color:limegreen;
+    opacity: 100%;
+}
+
+a:active {
+    color:green;
+    opacity: 100%;
+}
+
+sub a:active {
+    color:darkgreen;
+    opacity: 100%;
+}
+
+a:visited {
+    color:firebrick;
+    opacity: 100%;
+}
+
+a:visited:hover {
+    color:red;
+    opacity: 100%;
+}
+
+a:visited:active {
+    color:firebrick;
+    opacity: 100%;
+}
+
+/* End of Links */
 
 
 
