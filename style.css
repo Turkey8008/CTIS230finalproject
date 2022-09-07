@@ -63,7 +63,6 @@ footer {
     background-color: rgba(139, 0, 0, 0.75);
     position: sticky;
     bottom: 0px;
-    opacity: 75%;   
 }
 .footer {
     text-align: center;
@@ -113,7 +112,7 @@ div#navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgba(25, 25, 112, 0.5);
+    background-color: rgba(25, 25, 112, 0.75);
     position: fixed;
     top: 0;
     width: 100%;
