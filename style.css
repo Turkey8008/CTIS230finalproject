@@ -103,7 +103,12 @@ footer {
 /* Beginning of Links */
 
 a:link {
-    color:green;
+    color: green;
+    text-decoration: none;
+}
+
+sub a:link {
+    color:darkgreen;
     text-decoration: none;
 }
 
@@ -111,8 +116,16 @@ a:hover {
     color:limegreen;
 }
 
+sub a:hover {
+    color:limegreen;
+}
+
 a:active {
     color:green;
+}
+
+sub a:active {
+    color:darkgreen;
 }
 
 a:visited {
