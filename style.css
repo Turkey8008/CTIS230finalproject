@@ -103,7 +103,7 @@ footer {
 /* Beginning of Links */
 
 a:link {
-    color:darkgreen;
+    color:green;
     text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ a:hover {
 }
 
 a:active {
-    color:darkgreen;
+    color:green;
 }
 
 a:visited {
