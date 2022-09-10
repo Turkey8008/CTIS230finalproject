@@ -99,6 +99,13 @@ footer {
 
 /* End of Page 3 */
 
+/* Beginning of Timeline */
+
+.dontshow {
+    display: none;
+}
+
+/* End of Timeline */
 
 /* Drop-Down */
 body {
@@ -177,13 +184,28 @@ a:visited {
     opacity: 1;
 }
 
+sub a:visited {
+    color:darkred;
+    opacity: 1;
+}
+
 a:visited:hover {
+    color:red;
+    opacity: 1;
+}
+
+sub a:visited:hover {
     color:red;
     opacity: 1;
 }
 
 a:visited:active {
     color:firebrick;
+    opacity: 1;
+}
+
+sub a:visited:active {
+    color:darkred;
     opacity: 1;
 }
 
@@ -215,10 +237,19 @@ a:visited:active {
         transition-duration: 0.5s;
     }
     img {
+        transition-property: all;
+        transition-duration: 0.5s;
         width: 50vw;
     }
     .footer {
+        transition-property: all;
+        transition-duration: 0.5s;
         font-size: 0.85em;
+    }
+    #quiz {
+        transition-property: all;
+        transition-duration: 0.5s;
+        width:85vw;
     }
 }
 
@@ -244,9 +275,57 @@ a:visited:active {
     }
     img {
         width: "";
+        transition-property: all;
+        transition-duration: 0.5s;
     }
     .footer {
+        transition-property: all;
+        transition-duration: 0.5s;
         font-size: "";
     }
+    #quiz {
+        transition-property: all;
+        transition-duration: 0.5s;
+        width:"";
+    }
 }
+
+@media screen and (orientation: landscape) and (max-width: 950px) {
+
+    sub {
+        font-size: 0.75em;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    main {
+        font-size: 0.75em;
+        margin-left: 5%;
+        margin-right: 5%;
+        transition-property: all;
+        transition-duration: 0.5s;
+        }
+    h1 {
+        font-size: 1.5em;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    img {
+        transition-property: all;
+        transition-duration: 0.5s;
+        width: 50vw;
+    }
+    .footer {
+        transition-property: all;
+        transition-duration: 0.5s;
+        font-size: 0.85em;
+    }
+    #quiz {
+        transition-property: all;
+        transition-duration: 0.5s;
+        width:85vw;
+    }
+}
+
+
 /* End of Responsive Web Design */
+
